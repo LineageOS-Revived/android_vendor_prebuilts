@@ -30,6 +30,6 @@ android_app_import {
         "Camera2",
         "Snap",
     ],
-    apk: "Aperture20240214.apk",
+    apk: "Aperture20240419.apk",
     presigned: true,
 }
