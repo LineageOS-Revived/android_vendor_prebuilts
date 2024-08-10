@@ -9,5 +9,5 @@ LOCAL_CERTIFICATE := PRESIGNED
 
 LOCAL_MODULE_TARGET_ARCH := arm arm64
 my_src_arch := $(call get-prebuilt-src-arch,$(LOCAL_MODULE_TARGET_ARCH))
-LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/fennec.apk
+LOCAL_SRC_FILES := $(my_src_arch)/fennec.apk
 include $(BUILD_PREBUILT)
