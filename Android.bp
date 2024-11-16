@@ -21,7 +21,7 @@
 // are responsible for having their own logic, for fine-grained control.
 
 android_app_import {
-    name: "Aperture",
+    name: "Aperture_prebuilt",
     // Make sure the build system doesn't try to resign the APK
     dex_preopt: {
         enabled: false,
@@ -35,7 +35,7 @@ android_app_import {
 }
 
 android_app_import {
-    name: "Glimpse",
+    name: "Glimpse_prebuilt",
     // Make sure the build system doesn't try to resign the APK
     dex_preopt: {
         enabled: false,
