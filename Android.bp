@@ -48,3 +48,17 @@ android_app_import {
     apk: "Glimpse20241102.apk",
     presigned: true,
 }
+
+android_app_import {
+    name: "Twelve_prebuilt",
+    // Make sure the build system doesn't try to resign the APK
+    dex_preopt: {
+        enabled: false,
+    },
+    overrides: [
+        "Eleven",
+        "Music",
+    ],
+    apk: "Twelve20241116.apk",
+    presigned: true,
+}
