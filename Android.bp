@@ -33,9 +33,10 @@ android_app_import {
     ],
     apk: "Aperture20241216.apk",
     presigned: true,
+    preprocessed: true
 }
 
-//Gallery
+// Gallery
 android_app_import {
     name: "Glimpse_prebuilt",
     // Make sure the build system doesn't try to resign the APK
@@ -49,9 +50,10 @@ android_app_import {
     ],
     apk: "Glimpse20241208.apk",
     presigned: true,
+    preprocessed: true
 }
 
-//Music
+// Music
 android_app_import {
     name: "Twelve_prebuilt",
     // Make sure the build system doesn't try to resign the APK
@@ -64,9 +66,10 @@ android_app_import {
     ],
     apk: "Twelve20241216.apk",
     presigned: true,
+    preprocessed: true
 }
 
-//PDF
+// PDF
 android_app_import {
     name: "Camelot_prebuilt",
     // Make sure the build system doesn't try to resign the APK
@@ -75,4 +78,5 @@ android_app_import {
     },
     apk: "Camelot20241219.apk",
     presigned: true,
+    preprocessed: true
 }
