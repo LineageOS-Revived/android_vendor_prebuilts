@@ -68,15 +68,3 @@ android_app_import {
     presigned: true,
     preprocessed: true
 }
-
-// PDF
-android_app_import {
-    name: "Camelot_prebuilt",
-    // Make sure the build system doesn't try to resign the APK
-    dex_preopt: {
-        enabled: false,
-    },
-    apk: "Camelot20241219.apk",
-    presigned: true,
-    preprocessed: true
-}
