@@ -20,6 +20,7 @@
 // to only building on ARM if they include assembly. Individual makefiles
 // are responsible for having their own logic, for fine-grained control.
 
+// Camera
 android_app_import {
     name: "Aperture_prebuilt",
     // Make sure the build system doesn't try to resign the APK
@@ -34,6 +35,7 @@ android_app_import {
     presigned: true,
 }
 
+//Gallery
 android_app_import {
     name: "Glimpse_prebuilt",
     // Make sure the build system doesn't try to resign the APK
@@ -49,6 +51,7 @@ android_app_import {
     presigned: true,
 }
 
+//Music
 android_app_import {
     name: "Twelve_prebuilt",
     // Make sure the build system doesn't try to resign the APK
@@ -63,6 +66,7 @@ android_app_import {
     presigned: true,
 }
 
+//PDF
 android_app_import {
     name: "Camelot_prebuilt",
     // Make sure the build system doesn't try to resign the APK
