@@ -62,3 +62,13 @@ android_app_import {
     apk: "Twelve20241216.apk",
     presigned: true,
 }
+
+android_app_import {
+    name: "Camelot_prebuilt",
+    // Make sure the build system doesn't try to resign the APK
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "Camelot20241219.apk",
+    presigned: true,
+}
