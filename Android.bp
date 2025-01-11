@@ -64,7 +64,7 @@ android_app_import {
         "Eleven",
         "Music",
     ],
-    apk: "Twelve20241216.apk",
+    apk: "Twelve20250111.apk",
     presigned: true,
     preprocessed: true
 }
