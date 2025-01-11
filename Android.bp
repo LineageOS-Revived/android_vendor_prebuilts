@@ -33,7 +33,6 @@ android_app_import {
     ],
     apk: "Aperture20241216.apk",
     presigned: true,
-    preprocessed: true
 }
 
 // Gallery
@@ -50,7 +49,6 @@ android_app_import {
     ],
     apk: "Glimpse20241208.apk",
     presigned: true,
-    preprocessed: true
 }
 
 // Music
@@ -66,5 +64,4 @@ android_app_import {
     ],
     apk: "Twelve20241216.apk",
     presigned: true,
-    preprocessed: true
 }
