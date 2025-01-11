@@ -31,7 +31,7 @@ android_app_import {
         "Camera2",
         "Snap",
     ],
-    apk: "Aperture20241216.apk",
+    apk: "Aperture20250110.apk",
     presigned: true,
 }
 
@@ -47,7 +47,7 @@ android_app_import {
         "Gallery3D",
         "GalleryNew3D",
     ],
-    apk: "Glimpse20241208.apk",
+    apk: "Glimpse20250110.apk",
     presigned: true,
 }
 
@@ -62,6 +62,6 @@ android_app_import {
         "Eleven",
         "Music",
     ],
-    apk: "Twelve20241216.apk",
+    apk: "Twelve20250111.apk",
     presigned: true,
 }
