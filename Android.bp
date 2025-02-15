@@ -47,7 +47,7 @@ android_app_import {
         "Gallery3D",
         "GalleryNew3D",
     ],
-    apk: "Glimpse20250110.apk",
+    apk: "Glimpse20241219.apk",
     presigned: true,
 }
 
